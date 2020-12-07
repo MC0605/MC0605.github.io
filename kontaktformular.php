@@ -1,3 +1,15 @@
+<?php
+
+if($_POST["message"]) {
+
+mail("mirja@mirjacastioni.com", "Here is the subject line",
+
+$_POST["insert your message here"]. "From: an@email.address");
+
+}
+
+?>
+
 <!doctype html>
 <html>
 <body>
@@ -12,17 +24,7 @@
 
 
 
-<?php
 
-if($_POST["message"]) {
-
-mail("mirja@mirjacastioni.com", "Here is the subject line",
-
-$_POST["insert your message here"]. "From: an@email.address");
-
-}
-
-?>
 
 </body>
 </html>
